@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    // Declare two floating-point variables
-    float num1, num2;
-
+    int num;
+    
     // Take input from the user
-    scanf("%f %f", &num1, &num2);
-
-    // Print the product of the two numbers
-    printf("Product: %.2f\n", num1 * num2);
-
+    scanf("%d", &num);
+    
+    // Print hexadecimal and octal representations
+    printf("Hexadecimal: %X\n", num); // %X for hexadecimal (uppercase letters)
+    printf("Octal: %o\n", num);       // %o for octal
+    
     return 0;
 }
