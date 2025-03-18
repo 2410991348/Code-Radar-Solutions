@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    double num;
+    float num;
     
     // Take a double-precision floating-point number as input
-    scanf("%lf", &num);
+    scanf("%f", &num);
     
     // Print the entered number
     printf("You entered: %lf\n", num);
